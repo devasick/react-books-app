@@ -3,16 +3,19 @@ import { connect } from "react-redux";
 import Modal from "react-responsive-modal";
 import { getData } from "../../redux/actions/index";
 import BooksData from "./BooksData";
-import Pagination from "../pagination/Pagination";
+//import Pagination from "../pagination/Pagination";
 import "./books.scss";
 
 export class BookList extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
+      currentPage: 1,
+      booksPerPage: 10,
       open: false,
       selectedBook: null // Keep track of the selected book
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {
@@ -53,6 +56,9 @@ export class BookList extends Component {
             )}
           </div>
           <div className='book-title'>{this.truncateTitle(row.title)}</div>
+          <div className='author'>
+            <span>Author:</span> {row.authors}
+          </div>
         </div>
       );
     });
@@ -85,6 +91,12 @@ export class BookList extends Component {
     }
   };
 
+  handleClick(event) {
+    this.setState({
+      currentPage: Number(event.target.id)
+    });
+  }
+
   render() {
     let getBookData;
     if (this.props.catagory) {
@@ -95,14 +107,45 @@ export class BookList extends Component {
       getBookData = this.props.books.results;
     }
 
+    const { currentPage, booksPerPage } = this.state;
+    const indexOfLastBook = currentPage * booksPerPage;
+    const indexOfFirstBook = indexOfLastBook - booksPerPage;
+    const currentBooks = getBookData.slice(indexOfFirstBook, indexOfLastBook);
+
+    const renderBookList = currentBooks.map((data, index) => {
+      return data;
+    });
+
+    const pageNumbers = [];
+    const pageLength = getBookData.length;
+    for (let i = 1; i <= Math.ceil(pageLength / booksPerPage); i++) {
+      console.log(pageNumbers);
+      pageNumbers.push(i);
+    }
+
+    /**
+     * renderPageNumbers display the pagination
+     */
+    const renderPageNumbers = pageNumbers.map((number, page) => {
+      return (
+        <li
+          key={number}
+          id={number}
+          className={this.state.currentPage === number ? "active" : ""}
+          onClick={e => this.handleClick(e)}>
+          {number}
+        </li>
+      );
+    });
+
     return (
       <div>
         <div className='container book-list'>
           <h4>{this.props.catagory ? this.props.catagory : "Books List"}</h4>
-          {/* <div className='row'>{this.renderBooks(getBookData)}</div> */}
-          <Pagination data={this.props.books.results}>
-            <BooksData />
-          </Pagination>
+          <div className='row'>{this.renderBooks(renderBookList)}</div>
+          <div className='page'>
+            <ul>{renderPageNumbers}</ul>
+          </div>
           <Modal open={this.state.open} onClose={this.onCloseModal} center>
             <div>{this.renderBookModal()}</div>
           </Modal>
@@ -115,10 +158,7 @@ export class BookList extends Component {
 function mapStateToProps(state) {
   return {
     books: state.books,
-    currentPage: state.currentPage,
-    perPage: state.perPage,
-    catagory: state.catagory,
-    id: state.id
+    catagory: state.catagory
   };
 }
 

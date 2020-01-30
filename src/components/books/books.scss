@@ -9,6 +9,10 @@ body {
     sans-serif;
 }
 .book-list {
+  .row .col.s3 {
+    width: 24%;
+    margin: 5px !important;
+  }
   h4 {
     text-transform: uppercase;
     font-weight: bold;
@@ -23,6 +27,15 @@ body {
     margin: 0 !important;
     .book-title {
       min-height: 50px;
+      text-align: left;
+      padding: 8px 8px 5px 8px;
+      font-size: 1.2em;
+    }
+    .author {
+      padding: 0px 8px 0px 8px;
+      span {
+        font-weight: bold;
+      }
     }
     .card-image {
       padding: 0;
@@ -38,10 +51,33 @@ body {
   ul {
     li {
       display: inline-block;
+      margin: 4px;
+      background: #ff416c; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to right,
+        #ff4b2b,
+        #ff416c
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        #ff4b2b,
+        #ff416c
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      color: #fff;
+      width: 40px;
+      padding: 10px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    li.active {
+      background: black;
     }
   }
 }
-
+.styles_modal__gNwvD {
+  border-radius: 4px;
+}
 .popup {
   position: fixed;
   width: 100%;
