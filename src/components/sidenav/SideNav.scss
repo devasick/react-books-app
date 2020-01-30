@@ -1,0 +1,67 @@
+.sidebar {
+  position: fixed;
+  .aside {
+    left: 0;
+    width: 200px;
+  }
+  height: 100%;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 200px;
+  margin-bottom: 20px;
+  left: 0px;
+  height: calc(90vh - 80px) !important;
+  margin-top: 17px;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  left: 8px;
+  border-radius: 4px;
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-size: 1.6em;
+  }
+  svg {
+    color: #1d2153;
+  }
+  hr {
+    margin-top: 0;
+    border: 0.5px solid #eee;
+    width: 100%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    position: relative;
+    top: 35px;
+
+    li {
+      display: block;
+      color: #1d2153;
+      text-decoration: none;
+      text-align: left;
+      padding: 15px 2px 15px 35px;
+    }
+    li:hover {
+      background: #272e71; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to bottom,
+        #272e71,
+        #1d2253
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to bottom,
+        #272e71,
+        #1d2253
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: white;
+      width: 202px;
+    }
+  }
+}
