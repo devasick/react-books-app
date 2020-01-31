@@ -1,6 +1,7 @@
 import React from "react";
+import "./footer.scss";
 const Footer = () => (
-  <footer className='page-footer orange'>
+  <footer className='page-footer black'>
     <div className='container'>
       <div className='row'>
         <div className='col l6 s12'>

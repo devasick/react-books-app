@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { sendCategory } from "../../redux/actions/index";
-import "./SideNav.scss";
+import "./sidenav.scss";
 
 class SideNav extends Component {
   render() {
@@ -34,7 +34,7 @@ class SideNav extends Component {
 }
 
 function mapStateToProps(state) {
-  return { catagory: state.catagory };
+  return { catagory: state.catagory, books: state.books };
 }
 
 function mapDispatchToProps(dispatch) {

@@ -37,7 +37,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 280px;
+    // width: 280px;
     position: relative;
     top: 35px;
 
@@ -49,19 +49,36 @@
       padding: 15px 2px 15px 35px;
     }
     li:hover {
-      background: #272e71; /* fallback for old browsers */
+      background: #b3ffab; /* fallback for old browsers */
       background: -webkit-linear-gradient(
-        to bottom,
-        #272e71,
-        #1d2253
+        to right,
+        #12fff7,
+        #b3ffab
       ); /* Chrome 10-25, Safari 5.1-6 */
       background: linear-gradient(
-        to bottom,
-        #272e71,
-        #1d2253
+        to right,
+        #12fff7,
+        #b3ffab
       ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      color: white;
-      width: 202px;
+
+      color: 000;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .sidebar {
+    position: relative;
+    max-width: 359px;
+    .aside {
+      max-width: 100%;
+    }
+  }
+  .book-list {
+    .row .col.s6 {
+      width: 48%;
+      margin: 2px !important;
     }
   }
 }

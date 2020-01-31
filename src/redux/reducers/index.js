@@ -1,8 +1,7 @@
 const jsonData = require("../../data/books-data.json");
 const initialState = {
   books: jsonData,
-  catagory: "",
-  currentPage: 1
+  catagory: ""
 };
 
 function rootReducer(state = initialState, action) {
@@ -13,11 +12,16 @@ function rootReducer(state = initialState, action) {
       });
     }
     case "SEND_CATEGORY": {
+      // const newData = state.books.results.filter(
+      //   a => a.categories[0] === action.category
+      // );
+      //console.log(newData);
       return Object.assign({}, state, {
-        catagory: action.category,
-        currentPage: 1
+        books: state.books,
+        catagory: action.category
       });
     }
+
     default:
       return state;
   }

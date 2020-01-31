@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 
-export default class BooksData extends Component {
+export default class BooksDetails extends Component {
+  truncateTitle = string => {
+    return string.length > 10 ? string.substring(0, 40) + "..." : string;
+  };
   render() {
-    const data = this.props.books.results;
+    const data = this.props.data;
+    console.log(this.props.click);
     return data.map(row => {
       return (
-        <div
-          className='col s3 box card book-box'
-          key={row.id}
-          onClick={() => this.onOpenModal(row.id)}>
+        <div className='col s2 m3 box card book-box' key={row.id}>
           <div className='card-image'>
             {row.thumbnailUrl ? (
               <img src={row.thumbnailUrl} alt={row.title} />
