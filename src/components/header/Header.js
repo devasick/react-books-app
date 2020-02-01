@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.scss";
+import SearchBar from "../search/SearchBar";
 
 const Header = () => (
   <nav role='navigation'>
@@ -11,7 +12,9 @@ const Header = () => (
           width='200'
         />
       </div>
-
+      <div className='row'>
+        <div className='col s6 offset-s6'>{<SearchBar />}</div>
+      </div>
       <ul id='nav-mobile' className='sidenav'>
         <li>Navbar Link</li>
       </ul>

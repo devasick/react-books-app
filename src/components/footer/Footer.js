@@ -69,8 +69,10 @@ const Footer = () => (
         Made by{" "}
         <a
           className='orange-text text-lighten-3'
-          href='http://materializecss.com'>
-          Materialize
+          href='http://www.asickweb.com'
+          target='_blank'
+          rel='noopener noreferrer'>
+          www.asickweb.com
         </a>
       </div>
     </div>

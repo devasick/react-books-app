@@ -17,6 +17,27 @@ export class BookList extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
+  componentDidMount() {
+    this.props.getData();
+  }
+
+  componentDidUpdate(previousProps) {
+    // updating pagination current page
+    if (this.state.currentPage !== 1) {
+      let totalPages = Math.ceil(
+        this.props.books.length / this.state.booksPerPage
+      );
+      if (
+        this.state.booksPerPage > totalPages &&
+        previousProps.books !== this.props.books
+      ) {
+        this.setState({
+          currentPage: totalPages
+        });
+      }
+    }
+  }
+
   onOpenModal = bookId => {
     this.setState({
       open: true,
@@ -36,7 +57,7 @@ export class BookList extends Component {
     return data.map(row => {
       return (
         <div
-          className='col s12 m3 box card book-box'
+          className='col s6 m3 box card book-box'
           key={row.id}
           onClick={() => this.onOpenModal(row.id)}>
           <div className='card-image'>
@@ -58,12 +79,11 @@ export class BookList extends Component {
 
   renderBookModal = () => {
     // Check to see if there's a selected book. If so, render it.
-    //console.log(this.props.books);
-    if (this.state.selectedBook !== null) {
-      const book = this.props.books.results.filter(
-        a => a.id === this.state.selectedBook
-      );
 
+    if (this.state.selectedBook !== null) {
+      const book = this.props.books.filter(
+        book => book.id === this.state.selectedBook
+      );
       return (
         <div style={{ maxWidth: 700, height: 600 }} className='book-details'>
           <div className='row'>
@@ -104,15 +124,6 @@ export class BookList extends Component {
   }
 
   render() {
-    let getBookData;
-    if (this.props.catagory) {
-      getBookData = this.props.books.results.filter(
-        a => a.categories[0] === this.props.catagory
-      );
-    } else {
-      getBookData = this.props.books.results;
-    }
-
     /*
      Pagination data
     */
@@ -122,29 +133,33 @@ export class BookList extends Component {
     const indexOfFirstBook = indexOfLastBook - booksPerPage;
     // rendering current book list
 
-    // const getBookData = this.props.books;
-    const currentBooks = getBookData.slice(indexOfFirstBook, indexOfLastBook);
+    const currentBooks = this.props.books.slice(
+      indexOfFirstBook,
+      indexOfLastBook
+    );
 
     return (
       <div>
         <div className='container book-list'>
-          <h4>{this.props.catagory ? this.props.catagory : "Books List"}</h4>
-          <div className='row'>
-            {/* <BooksDetails data={currentBooks} click={this.onOpenModal} /> */}
-
-            {this.renderBooks(currentBooks)}
-          </div>
+          <h4 className='title'>
+            {this.props.catagory ? this.props.catagory : "Books List"}
+          </h4>
+          <div className='row'>{this.renderBooks(currentBooks)}</div>
           {/* Book Details Popup box start here */}
-          <Modal open={this.state.open} onClose={this.onCloseModal} center>
-            <div>{this.renderBookModal()}</div>
-          </Modal>
+          {this.state.open ? (
+            <Modal open={this.state.open} onClose={this.onCloseModal} center>
+              <div>{this.renderBookModal()}</div>
+            </Modal>
+          ) : (
+            ""
+          )}
           {/* Pagination numbers start here  */}
           <div className='page'>
             <Pagination
-              bookDatalength={this.props.books.results.length}
+              bookDatalength={this.props.books.length}
               booksPerPage={booksPerPage}
               click={this.handleClick}
-              currentPage={currentPage}
+              currentPage={this.state.currentPage}
             />
           </div>
         </div>
@@ -154,10 +169,23 @@ export class BookList extends Component {
 }
 
 function mapStateToProps(state) {
-  //if (newObj)
+  let bookObj;
+  if (state.catagory) {
+    bookObj = state.books.filter(
+      category => category.categories[0] === state.catagory
+    );
+  } else if (state.searchValue) {
+    bookObj = state.books.filter(
+      val =>
+        val.title.toLowerCase().indexOf(state.searchValue.toLowerCase()) !== -1
+    );
+  } else {
+    bookObj = state.books;
+  }
   return {
-    books: state.books,
-    catagory: state.catagory
+    books: bookObj,
+    catagory: state.catagory,
+    searchValue: state.searchValue
   };
 }
 

@@ -1,25 +1,29 @@
-const jsonData = require("../../data/books-data.json");
 const initialState = {
-  books: jsonData,
-  catagory: ""
+  books: [],
+  catagory: "",
+  searchValue: ""
 };
 
 function rootReducer(state = initialState, action) {
   switch (action.type) {
-    case "DATA_REQUESTED": {
+    case "DATA_LOADED": {
       return Object.assign({}, state, {
-        books: state.books
+        books: state.books.concat(action.payload)
       });
     }
+
     case "SEND_CATEGORY": {
-      // const newData = state.books.results.filter(
-      //   a => a.categories[0] === action.category
-      // );
-      //console.log(newData);
       return Object.assign({}, state, {
+        ...state,
         books: state.books,
         catagory: action.category
       });
+    }
+    case "SEARCH": {
+      return {
+        ...state,
+        searchValue: action.value
+      };
     }
 
     default:

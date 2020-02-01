@@ -128,3 +128,18 @@ body {
     color: #fff;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .book-list {
+    .row .col.s6 {
+      width: 48%;
+      margin: 2px !important;
+      .book-title {
+        min-height: 80px;
+        font-size: 1em;
+      }
+    }
+  }
+}

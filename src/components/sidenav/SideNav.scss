@@ -70,15 +70,19 @@
   /* For mobile phones: */
   .sidebar {
     position: relative;
+    height: calc(52vh - 80px) !important;
+
     max-width: 359px;
     .aside {
-      max-width: 100%;
-    }
-  }
-  .book-list {
-    .row .col.s6 {
-      width: 48%;
-      margin: 2px !important;
+      width: 100%;
+      h3 {
+        margin: 13px;
+      }
+      ul {
+        li {
+          padding: 5px 2px 5px 35px;
+        }
+      }
     }
   }
 }

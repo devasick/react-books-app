@@ -5,21 +5,21 @@ import { search } from "../../redux/actions/index";
 
 class SearchBar extends Component {
   render() {
-    const { search, value } = this.props;
+    const { search, searchValue } = this.props;
 
     return (
       <input
         className='form-control'
-        placeholder='Procurar Trabalho'
+        placeholder='Search book by title'
         onChange={e => search(e.target.value)}
-        value={value}
+        value={searchValue}
       />
     );
   }
 }
 
 function mapStateToProps({ books }) {
-  return { value: books.value };
+  return { searchValue: books.searchValue };
 }
 
 function mapDispatchToProps(dispatch) {
