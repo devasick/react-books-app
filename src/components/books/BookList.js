@@ -9,6 +9,7 @@ export class BookList extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      books: [],
       currentPage: 1,
       booksPerPage: 10,
       open: false,
@@ -22,7 +23,7 @@ export class BookList extends Component {
   }
 
   componentDidUpdate(previousProps) {
-    // updating pagination current page
+    // updating pagination to current page
     if (this.state.currentPage !== 1) {
       let totalPages = Math.ceil(
         this.props.books.length / this.state.booksPerPage
@@ -32,10 +33,13 @@ export class BookList extends Component {
         previousProps.books !== this.props.books
       ) {
         this.setState({
-          currentPage: totalPages
+          currentPage: 1
         });
       }
     }
+  }
+  componentWillUnmount() {
+    this.props.getData();
   }
 
   onOpenModal = bookId => {
@@ -77,6 +81,10 @@ export class BookList extends Component {
     });
   };
 
+  /*
+  # renderBookModal: this function trigger when we click the book 
+  */
+
   renderBookModal = () => {
     // Check to see if there's a selected book. If so, render it.
 
@@ -85,7 +93,7 @@ export class BookList extends Component {
         book => book.id === this.state.selectedBook
       );
       return (
-        <div style={{ maxWidth: 700, height: 600 }} className='book-details'>
+        <div style={{ maxWidth: 700, height: 650 }} className='book-details'>
           <div className='row'>
             <h5>{book[0].title}</h5>
             <div className='col m6'>
@@ -115,6 +123,7 @@ export class BookList extends Component {
   };
   /*
    # when we click pagination number and updating the current page value
+   # currentPage is state value
    */
 
   handleClick(event) {
@@ -132,11 +141,11 @@ export class BookList extends Component {
     const indexOfLastBook = currentPage * booksPerPage;
     const indexOfFirstBook = indexOfLastBook - booksPerPage;
     // rendering current book list
-
-    const currentBooks = this.props.books.slice(
-      indexOfFirstBook,
-      indexOfLastBook
-    );
+    //if (this.props.books) {
+    const currentBooks = this.props.books
+      ? this.props.books.slice(indexOfFirstBook, indexOfLastBook)
+      : "";
+    //}
 
     return (
       <div>
@@ -144,7 +153,11 @@ export class BookList extends Component {
           <h4 className='title'>
             {this.props.catagory ? this.props.catagory : "Books List"}
           </h4>
-          <div className='row'>{this.renderBooks(currentBooks)}</div>
+          <div className='row'>
+            {this.props.books
+              ? this.renderBooks(this.props.books ? currentBooks : null)
+              : null}
+          </div>
           {/* Book Details Popup box start here */}
           {this.state.open ? (
             <Modal open={this.state.open} onClose={this.onCloseModal} center>
@@ -156,7 +169,7 @@ export class BookList extends Component {
           {/* Pagination numbers start here  */}
           <div className='page'>
             <Pagination
-              bookDatalength={this.props.books.length}
+              bookDatalength={this.props.books ? this.props.books.length : null}
               booksPerPage={booksPerPage}
               click={this.handleClick}
               currentPage={this.state.currentPage}

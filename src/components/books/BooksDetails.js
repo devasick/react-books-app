@@ -6,7 +6,6 @@ export default class BooksDetails extends Component {
   };
   render() {
     const data = this.props.data;
-    console.log(this.props.click);
     return data.map(row => {
       return (
         <div className='col s2 m3 box card book-box' key={row.id}>

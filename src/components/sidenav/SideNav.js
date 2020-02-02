@@ -12,18 +12,18 @@ class SideNav extends Component {
           <h3>Book Store</h3>
           <hr />
           <ul>
-            <li onClick={() => this.props.sendCategory("")}>All Books</li>
+            {/* <li onClick={() => this.props.sendCategory("")}>All Books</li> */}
             <li onClick={() => this.props.sendCategory("Business")}>
               Business
             </li>
-            <li onClick={() => this.props.sendCategory("Digital-Media")}>
+            <li onClick={() => this.props.sendCategory("Digital Media")}>
               Digital Media
             </li>
-            <li onClick={() => this.props.sendCategory("Software-Development")}>
+            <li onClick={() => this.props.sendCategory("Software Development")}>
               {" "}
               Software Development
             </li>
-            <li onClick={() => this.props.sendCategory("Web-Applications")}>
+            <li onClick={() => this.props.sendCategory("Web Applications")}>
               Web Applications
             </li>
           </ul>

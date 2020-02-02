@@ -14,4 +14,14 @@ nav {
   .brand-logo {
     margin: 10px 0 0 0;
   }
+  .search-box::placeholder {
+    color: black;
+  }
+  .search-box {
+    background: url("./images/search.svg") no-repeat scroll 7px 7px;
+    padding-left: 30px;
+    background-size: 23px;
+    background-position-y: 10px;
+    background-position-x: 2px;
+  }
 }

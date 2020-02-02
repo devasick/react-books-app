@@ -116,7 +116,7 @@
     "longDescription": "With Flex 4 you can easily add color and life to your web applications by introducing dynamic user features, slick transitions, and eye-catching animations. Flex also provides powerful data handling capabilities so you can build industrial-strength applications. And it's open source, so you can get started without forking over a lot of your hard-earned cash.    We think it should be just as much fun to learn Flex as it is to use Flex. Hello! Flex 4 shows you everything you need to know to get started with Flex 4 without bogging you down in obscure detail or academic edge cases. In this entertaining, hands-on book, you'll quickly move from Hello World into the techniques you'll need to use Flex effectively.    You'll start by progressing through 26 self-contained workshop items, which include everything from small one-page examples, to a 3D rotating haiku, to building a Connect Four game. Finally, in the last chapter you'll build a full Flex application called 'SocialStalkr': an interesting mashup of Twitter and Yahoo Maps that lets you 'stalk' your friends by showing specially formatted Twitter tweets on a Yahoo map.",
     "authors": ["Peter Armstrong"],
     "publisher": "Harper Business",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 13,
@@ -126,7 +126,7 @@
     "longDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web. The purpose is to capture the zeitgeist of the web's creative community, and to give readers a chance to enjoy some of the best and most notable original works that have appeared in this form. It showcases over forty individual web writers, among them Joseph Squier, Martha Conway, Jason Snell, David Alexander, Carl Steadman and Walter Miller. The intent is to show the variety and vitality of the web's blossoming literary \"scene,\" and to capture the unique and highly iconoclastic \"personality\" of the web community.",
     "authors": ["Bryan Alexander"],
     "publisher": "St. Martin's Press",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 14,
@@ -136,7 +136,7 @@
     "longDescription": "In complex software projects, managing the development process can be as critical to success as writing the code itself. A project may involve dozens of developers, managers, architects, testers, and customers, hundreds of builds, and thousands of opportunities to get off-track. To keep tabs on the people, tasks, and components of a medium- to large-scale project, most teams use a development system that allows for easy monitoring, follow-up, and accountability.    Microsoft Team Foundation Server 2008 (TFS), the server component of Microsoft's Visual Studio Team System (VSTS), provides a powerful collaborative platform for software-development teams. The product offers an integrated toolset for tracking work items, creating test cases, managing source code, generating builds, constructing database schemas, and so on. Because in software development one size does not fit all, TFS provides process customization, project management, and reporting capabilities to build solutions around your requirements.    Team Foundation Server 2008 in Action is a hands-on guide to Team Foundation Server 2008. Written for developers with a good handle on TFS basics, this book shows you how to solve real-life problems. It's not a repetition of Microsoft's product documentation. Team Foundation Server 2008 in Action is a practitioner's handbook for how to work with TFS under common constraints. This book walks you through real-life software engineering problems based on hundreds of hours of TFS experience.    You'll benefit from expert author Jamil Azher's extensive interactions with members of Microsoft's TFS team and MVPs, survey feedback from the author's blog, and interviews with organizations and user groups using TFS. Instead of just offering a high-level overview, the book provides detailed solutions for solving common   and not-so-common   problems using TFS. It discusses the strengths as well as weaknesses of TFS, and suggests appropriate problem resolution steps, workarounds, or custom solutions.",
     "authors": ["Wendy K. Bendoni"],
     "publisher": "Harper Business",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 15,
@@ -146,7 +146,7 @@
     "longDescription": "It's easy to get excited about building a new software project from scratch. So-called \"greenfield\" projects often involve learning new technology and the opportunity for experimentation. Working on established software projects may seem less glamorous.    Most software developers have inherited a monolithic application where the day-to-day tasks involve maintenance, incremental improvements, or even cleaning up the mess another programmer left behind. These legacy or brownfield projects often have tightly coupled components, low cohesion, and poor separation of concerns, making them fragile and resistant to change.    Brownfield Application Development in .Net shows you how to approach legacy applications with the state-of-the-art concepts, patterns, and tools you've learned to apply to new projects. Using an existing application as an example, this book guides you in applying the techniques and best practices you need to make it more maintainable and receptive to change.    Starting with the build process and the introduction of unit tests, the authors show you how to set up the application so that in later chapters, you can make incremental changes aimed at decoupling components from each other. Each practice introduced will increase your confidence and ability to make subsequent changes to your code.    As the book proceeds, the authors introduce frameworks and tools commonly used today while still approaching the subject from a conceptual level so that you can substitute alternate tools as appropriate. This book examines the reasons why a tool is necessary, not the tool itself. Because the book is based on the authors' experiences, Brownfield Application Development in .Net moves beyond the theories and shows you the techniques you need to be successful.",
     "authors": ["Lisa Caprelli"],
     "publisher": "St. Martin's Press",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 16,
@@ -156,7 +156,7 @@
     "shortDescription": "MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.",
     "longDescription": "MongoDB is a document-oriented database that's highly scalable and delivers very high-performance, especially with massive data sets that need to be spread across multiple servers. It blends the things you expect with any database   like indexing, querying, and high availability   with powerful new features like easy horizontal scaling (\"auto-sharding\"), map/reduce aggregation, and a flexible document data model to support dynamic schemas.    MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.    Along the way, all of MongoDB's major features are covered, including:        * Indexes and explain plans for efficient queries      * Atomic operations for managing simple data structures and manipulating complex, rich documents      * GridFS for storing and managing large binary objects (images, videos, etc.) in MongoDB      * Map-reduce for custom aggregations and reporting      * Master-slave replication and replica sets for automated failover      * Auto-sharding for automated horizontal scaling    The handy reference section on schema design patterns will help ease the transition from the relational data model of SQL to MongoDB's document-based data model. The numerous, detailed examples are implemented in Ruby and include comprehensive explanations.    MongoDB has been gaining traction in the developer community for its speed, flexibility, scalability, and ease of use. With production deployments that include SourceForge, Foursquare, and Shutterfly, MongoDB is proving to be a robust and reliable database system that keeps developers happy. Covering everything from installation to application design to deployment, MongoDB In Action is written for the application developer who wants to take advantage of MongoDB and get up and running quickly.",
     "authors": ["Kyle Banker"],
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 17,
@@ -166,7 +166,7 @@
     "thumbnailUrl": "https://images-na.ssl-images-amazon.com/images/I/5111X25XLUL.AC_UL400_SR400,400.jpg",
     "authors": ["Joan Van Tassel"],
     "publisher": "St. Martin's Press",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 18,
@@ -176,7 +176,7 @@
     "thumbnailUrl": "https://images-na.ssl-images-amazon.com/images/I/51KjKLewLoL.AC_UL400_SR400,400.jpg",
     "authors": ["Fiona Cameron"],
     "publisher": ["Kyle Banker"],
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 19,
@@ -186,7 +186,7 @@
     "longDescription": "Taming Jaguar is part of the PowerBuilder Developer's series, which includes Distributed Application Development with PowerBuilder 6 and Jaguar Development with PowerBuilder 7.    An application server is the heart of your enterprise computing architecture, centralizing your web content, business logic, and access to your data and legacy applications. Sybase's application server, Jaguar CTS, delivers performance, scalability, and flexibility running CORBA , COM, Java/EJB, C++, and PowerBuilder components.    If you are looking to adopt Jaguar in your enterprise, look no further. Taming Jaguar shows you how to solve the real-world problems of installing, trouble-shooting, designing, developing, and maintaining a Jaguar application. Topical chapters are organized in a Q & A format making it easy for you to quickly find the solution to your problem. They also provide foundational and background information as well as detailed technical how-tos.    Although designed so you can find your problems easily, this book is meant to be read cover-to-cover with each chapter discussing its topic exhaustively.    What's inside:    J2EE development  Java Servlets  Jaguar administration & code balancing  EJBs  Web development with PowerDynamo  Advanced component design ",
     "authors": ["Jason McDonald Ph.D."],
     "publisher": "St. Martin's Press",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 20,
@@ -196,7 +196,7 @@
     "longDescription": "3D User Interfaces with Java 3D is a practical guide for providing next-generation applications with 3D user interfaces for manipulation of in-scene objects. Emphasis is on standalone and web-based business applications, such as for online sales and mass customization, but much of what this book offers has broad applicability to 3D user interfaces in other pursuits such as scientific visualization and gaming.  This book provides an extensive conceptual framework for 3D user interface techniques, and an in-depth introduction to user interface support in the Java 3D API, including such topics as picking, collision, and drag-and-drop. Many of the techniques are demonstrated in a Java 3D software framework included with the book, which also provides developers with many general-purpose building blocks for constructing their own user interfaces.    Applications and their use of 3D are approached realistically. The book is geared towards sophisticated user interfaces for the \"everyday user\" who doesn't have a lot of time to learn another application--much less a complicated one--and an everyday computer system without exotic devices like head mounted displays and data gloves. Perhaps the best description of this book is: \"A roadmap from Java 3D to 'Swing 3D'.\"",
     "authors": ["Ryan Deiss"],
     "publisher": "Harper Business",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 21,
@@ -206,7 +206,7 @@
     "longDescription": "Hibernate practically exploded on the Java scene. Why is this open-source tool so popular  Because it automates a tedious task: persisting your Java objects to a relational database. The inevitable mismatch between your object-oriented code and the relational database requires you to write code that maps one to the other. This code is often complex, tedious and costly to develop. Hibernate does the mapping for you.    Not only that, Hibernate makes it easy. Positioned as a layer between your application and your database, Hibernate takes care of loading and saving of objects. Hibernate applications are cheaper, more portable, and more resilient to change. And they perform better than anything you are likely to develop yourself.    Hibernate in Action carefully explains the concepts you need, then gets you going. It builds on a single example to show you how to use Hibernate in practice, how to deal with concurrency and transactions, how to efficiently retrieve objects and use caching.    The authors created Hibernate and they field questions from the Hibernate community every day - they know how to make Hibernate sing. Knowledge and insight seep out of every pore of this book.",
     "authors": ["Susan Lake"],
     "publisher": "St. Martin's Press",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 22,
@@ -216,7 +216,7 @@
     "longDescription": "3D User Interfaces with Java 3D is a practical guide for providing next-generation applications with 3D user interfaces for manipulation of in-scene objects. Emphasis is on standalone and web-based business applications, such as for online sales and mass customization, but much of what this book offers has broad applicability to 3D user interfaces in other pursuits such as scientific visualization and gaming.  This book provides an extensive conceptual framework for 3D user interface techniques, and an in-depth introduction to user interface support in the Java 3D API, including such topics as picking, collision, and drag-and-drop. Many of the techniques are demonstrated in a Java 3D software framework included with the book, which also provides developers with many general-purpose building blocks for constructing their own user interfaces.    Applications and their use of 3D are approached realistically. The book is geared towards sophisticated user interfaces for the \"everyday user\" who doesn't have a lot of time to learn another application--much less a complicated one--and an everyday computer system without exotic devices like head mounted displays and data gloves. Perhaps the best description of this book is: \"A roadmap from Java 3D to 'Swing 3D'.\"",
     "authors": ["Christian Bauer"],
     "publisher": "Harper Business",
-    "categories": ["Digital-Media"]
+    "categories": ["Digital Media"]
   },
   {
     "id": 23,
@@ -226,7 +226,7 @@
     "longDescription": "Persistence -- the ability of data to outlive an instance of a program -- is central to modern applications. Hibernate, the most popular Java persistence tool, provides automatic and transparent object/relational mapping so it's a snap to work with SQL databases in Java applications. Hibernate conforms to the new EJB 3.0 and Java Persistence 1.0 standards.    Java Persistence with Hibernate explores Hibernate by developing an application that ties together hundreds of individual examples. You'll immediately dig into the rich programming model of Hibernate 3.2 and Java Persistence, working through queries, fetching strategies, caching, transactions, conversations, and more. You'll also appreciate the well-illustrated discussion of best practices in database design, object/relational mapping, and optimization techniques.    In this revised edition of Manning's bestselling Hibernate in Action, authors Christian Bauer and Gavin King -- the founder of the Hibernate project -- cover Hibernate 3.2 in detail along with the EJB 3.0 and Java Persistence 1.0 standards.",
     "authors": ["John Sonmez"],
     "publisher": "St. Martin's Press",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 24,
@@ -236,7 +236,7 @@
     "longDescription": "JSTL is an important simplification of the Java web platform. With JSTL, page authors can now write dynamic pages using standard HTML-like tags and an easy-to-learn expression language. JSTL is a standard from the Java Community Process, and its expression language will become part of JSP 2.0.    JSTL in Action shows you how to write rich, dynamic web pages without programming. From simple loops to tricky XML processing, every feature of JSTL is covered and exercised in numerous useful examples. Whether you are a novice page author or an experienced Java programmer, this book shows you easy ways to create powerful web sites.    To help readers who don't already have a JSP container run the examples in the book, there's a free companion download here. This bundle contains a ready-to-run JSP container, a JSTL implementation, and all the book's examples.",
     "authors": ["Dan Pilone"],
     "publisher": "Harper Business",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 25,
@@ -246,7 +246,7 @@
     "longDescription": "Unlike some complex and invasive persistence solutions, iBATIS keeps O/RM clean and simple. It is an elegant persistence framework that maps classes to SQL statements and keeps the learning curve flat. The iBATIS approach makes apps easy to code, test, and deploy. You write regular SQL and iBATIS gives you standard objects for persistence and retrieval. There   s no need to change existing database schemas   iBATIS is tolerant of legacy databases (even badly designed ones).    iBATIS in Action is a comprehensive tutorial on the framework and an introduction to the iBATIS philosophy. Clinton Begin and coauthors lead you through the core features, including configuration, statements, and transactions. Because you   ll need more than the basics, it explores sophisticated topics like Dynamic SQL and data layer abstraction. You   ll also learn a useful skill: how to extend iBATIS itself. A complete, detailed example shows you how to put iBATIS to work. Topics are clearly organized and easily accessible for reference.",
     "authors": ["Jeffrey Tompson"],
     "publisher": "Harper Business",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 26,
@@ -256,7 +256,7 @@
     "thumbnailUrl": "https://images-na.ssl-images-amazon.com/images/I/51l8cxv0pkL.AC_UL400_SR400,400.jpg",
     "authors": ["Stephen Haunts"],
     "publisher": "St. Martin's Press",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 27,
@@ -266,7 +266,7 @@
     "longDescription": "Good search capability is one of the primary demands of a business application. Engines like Lucene provide a great starting point, but with complex applications it can be tricky to implement. It's tough to keep the index up to date, deal with the mismatch between the index structure and the domain model, handle querying conflicts, and so on.    Hibernate Search is an enterprise search tool based on Hibernate Core and Apache Lucene. It provides full text search capabilities for Hibernate-based applications without the infrastructural code required by other search engines. With this free, open-source technology, you can quickly add high-powered search features in an intelligent, maintainable way.    Hibernate Search in Action is a practical, example-oriented guide for Java developers with some background in Hibernate Core. As the first book to cover Hibernate Search, it guides you through every step to set up full text search functionality in your Java applications. The book also introduces core search techniques and reviews the relevant parts of Lucene, in particular the query capabilities.    Hibernate Search in Action also provides a pragmatic, how-to exploration of more advanced topics such as Search clustering. For anyone using Hibernate or JBoss Seam, this book is the definitive guide on how to add or enhance search features in their applications.",
     "authors": ["Kweku Ewusi-Mensah"],
     "publisher": "Harper Business",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 28,
@@ -276,7 +276,7 @@
     "longDescription": "A really good web development framework anticipates your needs. jQuery does more   it practically reads your mind. Developers fall in love with this JavaScript library the moment they see 20 lines of code reduced to three. jQuery is concise and readable. Its unique    chaining    model lets you perform multiple operations on a page element in succession, as in  (   div.elements   ).addClass(   myClass   ).load(   ajax_url   ).fadeIn()    jQuery in Action is a fast-paced introduction and guide. It shows you how to traverse HTML documents, handle events, perform animations, and add Ajax to your web pages. The book's unique    lab pages    anchor the explanation of each new concept in a practical example. You'll learn how jQuery interacts with other tools and frameworks and how to build jQuery plugins. This book requires a modest knowledge of JavaScript and Ajax.",
     "authors": ["Chad Fowler"],
     "publisher": "St. Martin's Press",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 29,
@@ -286,7 +286,7 @@
     "longDescription": "A really good web development framework anticipates your needs. jQuery does more   it practically reads your mind. Developers fall in love with this JavaScript library the moment they see 20 lines of code reduced to three. jQuery is concise and readable. Its unique \"chaining\" model lets you perform multiple operations on a page element in succession. And with version 1.4, there's even more to love about jQuery, including new effects and events, usability improvements, and more testing options.    jQuery in Action, Second Edition is a fast-paced introduction and guide. Building on the bestselling first edition, it adds new examples, more labs, and deeper explanations of important features. You   ll learn how to traverse HTML documents, handle events, perform animations, and add Ajax to your web pages. The book's unique \"lab pages\" anchor the explanation of each new concept in a practical example. You'll learn how jQuery interacts with other tools and frameworks and how to build jQuery plugins. This book requires a modest knowledge of JavaScript and Ajax.",
     "authors": ["Jeffrey Thompson"],
     "publisher": "Harper Business",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 30,
@@ -296,7 +296,7 @@
     "longDescription": "As the \"network is the computer\" slogan becomes reality so reliability and security of networked applications become more important. Not only are hospitals, air traffic control systems, and telephone networks becoming more networked, but business applications are increasingly based on the open world of the Internet. Stability in the face of minor accidents, software or hardware failures, or outright attack has become vital. This book provides a structured approach to the technologies currently available for building reliable solutions to these problems.    Building Secure and Reliable Network Applications reviews the most important network technologies from a security and reliability perspective and discusses the most effective solutions with an eye towards their application to real-world systems. Any computing professional who works with networked software will find this book valuable in understanding security and reliability vulnerabilities and how to address them.",
     "authors": ["K.N. Kukoyi"],
     "publisher": "St. Martin's Press",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 31,
@@ -306,7 +306,7 @@
     "longDescription": "Ruby for Rails helps Rails developers achieve Ruby mastery. Each chapter deepens your Ruby knowledge and shows you how it connects to Rails. You   ll gain confidence working with objects and classes and learn how to leverage Ruby   s elegant, expressive syntax for Rails application power. And you'll become a better Rails developer through a deep understanding of the design of Rails itself and how to take advantage of it.    Newcomers to Ruby will find a Rails-oriented Ruby introduction that   s easy to read and that includes dynamic programming techniques, an exploration of Ruby objects, classes, and data structures, and many neat examples of Ruby and Rails code in action.    Ruby for Rails: the Ruby guide for Rails developers!",
     "authors": ["Jeff Campbell"],
     "publisher": "St. Martin's Press",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 32,
@@ -317,7 +317,7 @@
 
     "authors": ["James Edge"],
     "publisher": "St. Martin's Press",
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "longDescription": "Just because you're responsible for your organization's web presence doesn't mean you know how to build a website. The job of planning, launching, and managing a site often falls to people who have little or no experience in web design or development. Website Owner's Manual is a book for the thousands of marketers, IT managers, project leaders, and business owners who need to put a website in place and keep it running with a minimum of trouble.    Website Owner's Manual helps you form a vision for your site, guides you through the process of selecting a web design agency, and gives you enough background information to make intelligent decisions throughout the development process. This book provides a jargon-free overview of web design, including accessibility, usability, online marketing, and web development techniques. You'll gain a practical understanding of the technologies, processes, and ideas that drive a successful website.",
     "publisher": "St. Martin's Press",
     "authors": ["Mark M. Wilk "],
-    "categories": ["Software-Development"]
+    "categories": ["Software Development"]
   },
   {
     "id": 34,
@@ -337,7 +337,7 @@
     "longDescription": "ASP.NET is an established technology to build web applications using Microsoft products. It drives a number of enterprise-level web sites around the world, but it can be scaled for projects of any size. The new version 4.0 is an evolutionary step: you will find a lot of new features that you will be able to leverage to build better web applications with minimal effort.    ASP.NET 4.0 in Practice contains real world techniques from well-known professionals who have been using ASP.NET since the first previews. Using a practical Problem-Solution-Discussion format, it will guide you through the most common scenarios you will face in a typical ASP.NET application, and provide solutions and suggestions to take your applications to another level.",
     "authors": ["Jack Xu"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 35,
@@ -347,7 +347,7 @@
     "longDescription": "Learn Python the fast and fun way! Hello! Python is a fully-illustrated, project-driven tutorial designed to get you up and running with Python, no experience required. It's full of projects that help you learn the way most programmers do   one step at a time, starting with the basics, and then applying your new skills in useful programs.    Hello! Python fully covers the building blocks of Python programming and gives you a gentle introduction to more advanced topics such as object oriented programming, functional programming, network programming, and program design. New (or nearly new) programmers will learn most of what they need to know to start using Python immediately.    The book presents several practical projects, including games, business, and graphical applications. Each example provides a solid base for you to develop your own programs. As you dig into Python, you'll see how programs are created, and the reasons behind the technical decisions.    The book covers Python's large standard library gradually and in the context of sample apps, so the reader isn't overwhelmed with a large number of library functions to absorb all at once. Upon completing the book, the reader will have a good grasp of Python, know several technologies and libraries related to Python and be able to identify many resources for future growth as a programmer.",
     "publisher": "St. Martin's Press",
     "authors": ["Gerardus Blokdyk"],
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "longDescription": "PFC Programmers' Reference Manual provides information that should prove indispensible for the PowerBuilder programmer trying to learn the PowerBuilder Foundation Classes. It lists all of the objects and functions that they might use for a project with notes from the author on each function. Service-based architecture and appropriate object-oriented techniques are stressed throughout.    The more difficult objects and services are given special attention; these are the ones that are sure to enhance your image as an expert in this emerging technology. The text is written with the same easy-to-understand prose that has marked the PowerBuilder Dojo as one of the premier PowerBuilder sites worldwide.    At first, the programmer will find this book a comprehensive guide to the wide scope of these libraries. Later it will serve as a handy memory tool for finding exactly what is needed at implementation time.    The manager will find this book an invaluable source for understanding which tools are available for immediate implementation.    PFC Programmers' Reference Manual covers PowerBuilder version 6 as well as version 5",
     "authors": ["Jason R. Rich"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "longDescription": "Graphics File Formats is a comprehensive guide to the file formats used in computer graphics and related areas. It discusses implementation and design of file formats in a readable style focusing on the basic issues important for the evaluation or development of file formats, including  data types  design goals  color  data organization  data encoding  data compression  classification  and conversion  The second part of the book provides summaries of over 50 graphics file formats in commercial use, such as CGM, DDES, FITS, MPEG, PICT, PostScript, TIFF, QuickTime, RIB, SunRaster, and X bitmap. Following a uniform organization, these summaries are handy reference sources for those needing basic information on these formats.    Written by two computer experts, this book is intended for graphics professionals, programmers and all those in commercial, engineering and scientific applications areas who need to make decisions related to file formats from graphical data.",
     "authors": ["Steve Dembo"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 38,
@@ -377,7 +377,7 @@
     "longDescription": "This first book on the union of two rapidly growing approaches to programming--visual programming and object technology--provides a window on a subject of increasing commercial importance. It is an introduction and reference for cutting-edge developers, and for researchers, students, and enthusiasts interested in the design of visual OOP languages and environments.  Visual Object-Oriented Programming includes chapters on both emerging research and on a few classic systems, that together can help those who design visual object-oriented programming systems avoid some known pitfalls. The book contains an experience report on the use of available visual programming languages in a commercial setting, and chapters, by some of the leaders of this cutting-edge subject, covering systems such as Prograph, VIPR, PURSUIT, ThingLab II, Vampire, Forms/3, Self's environment, Vista, SPE, and Cerno.",
     "authors": ["Maria Veloso"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 39,
@@ -387,7 +387,7 @@
 
     "authors": ["Seppe vanden Broucke"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 40,
@@ -400,7 +400,7 @@
 
     "authors": ["Matthew MacDonald"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 41,
@@ -411,7 +411,7 @@
 
     "authors": ["Chad A. Campbell"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 42,
@@ -421,7 +421,7 @@
     "longDescription": "This revision of Manning's popular The Quick Python Book offers a clear, crisp introduction to the elegant Python programming language and its famously easy-to-read syntax. Written for programmers new to Python, this updated edition covers features common to other languages concisely, while introducing Python's comprehensive standard functions library and unique features in detail.    After exploring Python's syntax, control flow, and basic data structures, the book shows how to create, test, and deploy full applications and larger code libraries. It addresses established Python features as well as the advanced object-oriented options available in Python 3. Along the way, you'll survey the current Python development landscape, including GUI programming, testing, database access, and web frameworks.    WHAT'S INSIDE:        * Concepts and Python 3 features      * Regular expressions and testing      * Python tools      * All the Python you need   nothing you don't",
     "authors": ["Naomi R. Ceder"],
     "publisher": "St. Martin's Press",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 43,
@@ -432,7 +432,7 @@
 
     "authors": ["Tom Cervenka"],
     "publisher": "Harper Business",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 44,
@@ -442,7 +442,7 @@
     "thumbnailUrl": "https://images-na.ssl-images-amazon.com/images/I/31NYqjvOAkL.AC_UL400_SR400,400.jpg",
     "authors": ["Jon Duckett"],
     "publisher": "Harper Business",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 45,
@@ -451,7 +451,7 @@
     "thumbnailUrl": "https://images-na.ssl-images-amazon.com/images/I/51IgZ-mtGsL.AC_UL400_SR400,400.jpg",
     "longDescription": "Mobile Agents is the first book to give the reader the ability to create and use powerful mobile agents on the Internet. The book presents the reality of today's agent technologies and the future that this technology promises. It teaches how to create and deploy the major mobile agent systems (Telescript, Agent Tcl, Ara, Aglets Workbench) and how to solve a variety of problems on the Internet. Each of the chapters was written in collaboration with the original developers of the agent systems.",
     "authors": ["Ethan Brown"],
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 46,
@@ -461,7 +461,7 @@
     "longDescription": "OSGi is increasingly familiar to Java coders working in distributed environments, but the tools required to implement OSGi-based systems have been slow to develop. Spring Dynamic Modules (Spring DM) is a framework designed to make it easy to build Spring apps that take advantage of the OSGi approach to modular Java development. It simplifies the task of creating true component and service oriented architectures in an OSGi environment using all the powerful features of the Spring framework.    Spring Dynamic Modules in Action introduces Spring DM and OSGi to Java EE developers and architects. It presents the fundamental concepts of OSGi-based apps and maps them to the familiar ideas of the Spring framework. Then, it engages you with the techniques and concepts you'll need to develop stable, flexible enterprise apps. You'll learn how to embed a Spring container inside an OSGi bundle, and how Spring DM lets you blend Spring strengths like dependency injection with OSGi-based services. Along the way, you'll see how Spring DM handles data access and web-based components, and you'll explore topics like unit testing and configuration in an OSGi-based environment.",
     "publisher": "Harper Business",
     "authors": ["Semmy Purewal"],
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   },
   {
     "id": 47,
@@ -471,6 +471,6 @@
     "longDescription": "The integrity and security of your database is crucial to your business. SQL Server 2008 is a massive and mature product with a very large feature set. As a SQL Server administrator, you must be equipped to handle myriad day-to-day tasks to keep your database healthy, and you must also be prepared to act quickly when something unexpected happens.    SQL Server 2008 Administration in Action offers over 100 DBA-tested, high-value, best practices that will help you tame the beast and keep it under control. Unlike the many comprehensive SQL Server reference tomes out there that attempt to cover the whole SQL Server feature set, this book drills down on the techniques, procedures, and practices that help you keep your database running like clockwork.    SQL Server 2008 Administration in Action focuses the production DBA, digging deep into the various tasks specific to that role. Expert author Rod Colledge--check him out at sqlCrunch.com--teaches you best practices that cover the lifecycle of a SQL Server system, including infrastructure design, installation, and operational maintenance. And while many of these techniques will work in any recent version of SQL Server, you'll find full coverage of emerging SQL Server 2008 best practices.    Each technique is presented in a task-driven style, and in the order of the typical life cycle of a SQL Server system. This allows you to easily open the book at the appropriate page and focus on what you need to know for each specific situation.",
     "authors": ["Cory Althoff"],
     "publisher": "Harper Business",
-    "categories": ["Web-Applications"]
+    "categories": ["Web Applications"]
   }
 ]

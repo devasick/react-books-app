@@ -8,12 +8,14 @@ class SearchBar extends Component {
     const { search, searchValue } = this.props;
 
     return (
-      <input
-        className='form-control'
-        placeholder='Search book by title'
-        onChange={e => search(e.target.value)}
-        value={searchValue}
-      />
+      <div>
+        <input
+          className='form-control search-box'
+          placeholder='Search book by title...'
+          onChange={e => search(e.target.value)}
+          value={searchValue}
+        />
+      </div>
     );
   }
 }

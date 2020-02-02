@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing given the required props 1`] = `
+<div>
+  <div
+    className="container book-list"
+  >
+    <h4
+      className="title"
+    >
+      Books List
+    </h4>
+    <div
+      className="row"
+    />
+    <div
+      className="page"
+    >
+      <Pagination
+        bookDatalength={null}
+        booksPerPage={10}
+        click={[Function]}
+        currentPage={1}
+      />
+    </div>
+  </div>
+</div>
+`;

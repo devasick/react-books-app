@@ -52,19 +52,7 @@ body {
     li {
       display: inline-block;
       margin: 4px;
-      background: #ff416c; /* fallback for old browsers */
-      background: -webkit-linear-gradient(
-        to right,
-        #ff4b2b,
-        #ff416c
-      ); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(
-        to right,
-        #ff4b2b,
-        #ff416c
-      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-      color: #fff;
+      color: black;
       width: 40px;
       padding: 10px;
       border-radius: 4px;
@@ -72,6 +60,8 @@ body {
     }
     li.active {
       background: black;
+      color: white;
+      border-radius: 50%;
     }
   }
 }
@@ -87,6 +77,9 @@ body {
     }
     hr {
       border: 0.5px solid #ccc;
+    }
+    h5 {
+      margin-top: 25px;
     }
   }
   .popup {
